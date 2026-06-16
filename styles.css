@@ -1,15 +1,12 @@
-@font-face {
-  font-family: "Plus Jakarta Sans";
-  src: url("/font/PlusJakartaSans-ExtraBold.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #11141a;
+  line-height: 1.5;
 }
 
-@font-face {
-  font-family: "Inter_24pt-Regular.woff";
-  src: url("/font/Inter_24pt-Regular.woff") format("woff");
-  font-weight: 400;
-}
 * {
   margin: 0;
   padding: 0;
@@ -17,14 +14,12 @@
 }
 body {
   font-family: "Plus Jakarta Sans";
-  src: url("/font/PlusJakartaSans-ExtraBold.woff") format("woff");
   background: #f6f6f6;
   color: #111;
   overflow-x: hidden;
 }
 .hero-info span {
-  font-family: "Inter_24pt-Regular.woff";
-  src: url("/font/Inter_24pt-Regular.woff");
+  font-family: "Plus Jakarta Sans";
 }
 .navbar {
   width: 100%;
